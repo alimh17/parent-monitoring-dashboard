@@ -1,0 +1,51 @@
+{
+  "dashboard": "داشبورد",
+  "Light": "روشن",
+  "Dark": "تیره",
+  "Custom": "شخصی",
+  "Loading": "در حال بارگذاری...",
+  "Parent Monitoring Dashboard": "داشبورد نظارت والدین",
+  "Total Devices": "کل دستگاه‌ها",
+  "Devices List": "لیست دستگاه‌ها",
+  "Online": "آنلاین",
+  "Offline": "آفلاین",
+  "notifications": "اطلاعیه‌ها",
+
+  "notification": {
+    "management": "مدیریت اطلاعیه‌ها",
+    "noNotifications": "هیچ اطلاعیه‌ای وجود ندارد",
+    "noNotificationsDesc": "همه چیز به روز است! هیچ اطلاعیه جدیدی وجود ندارد.",
+    "markAsRead": "علامت به عنوان خوانده شده",
+    "markAllAsRead": "علامت همه به عنوان خوانده شده",
+    "delete": "حذف",
+    "total": "کل",
+    "highPriority": "اولویت بالا",
+    "today": "امروز",
+    "filters": "فیلترها",
+    "clearFilters": "پاک کردن فیلترها",
+    "readStatus": "وضعیت خوانده شده",
+    "type": "نوع",
+    "all": "همه",
+    "read": "خوانده شده",
+    "unread": "خوانده نشده",
+    "types": {
+      "alert": "هشدار",
+      "warning": "اخطار",
+      "info": "اطلاع",
+      "success": "موفقیت"
+    },
+    "priority": {
+      "high": "بالا",
+      "medium": "متوسط",
+      "low": "پایین"
+    },
+    "categories": {
+      "security": "امنیت",
+      "activity": "فعالیت",
+      "system": "سیستم",
+      "device": "دستگاه"
+    },
+    "device": "دستگاه",
+    "category": "دسته‌بندی"
+  }
+}

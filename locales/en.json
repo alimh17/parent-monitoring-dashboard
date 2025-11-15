@@ -1,0 +1,51 @@
+{
+  "dashboard": "Dashboard",
+  "Light": "Light",
+  "Dark": "Dark",
+  "Custom": "Custom",
+  "Loading": "Loading...",
+  "Parent Monitoring Dashboard": "Parent Monitoring Dashboard",
+  "Total Devices": "Total Devices",
+  "Devices List": "Devices List",
+  "online": "Online",
+  "offline": "Offline",
+  "notifications": "Notifications",
+
+  "notification": {
+    "management": "Notification Management",
+    "noNotifications": "No notifications",
+    "noNotificationsDesc": "You're all caught up! No new notifications.",
+    "markAsRead": "Mark as read",
+    "markAllAsRead": "Mark all as read",
+    "delete": "Delete",
+    "total": "Total",
+    "unread": "Unread",
+    "highPriority": "High Priority",
+    "today": "Today",
+    "filters": "Filters",
+    "clearFilters": "Clear Filters",
+    "readStatus": "Read Status",
+    "type": "Type",
+    "all": "All",
+    "read": "Read",
+    "types": {
+      "alert": "Alert",
+      "warning": "Warning",
+      "info": "Info",
+      "success": "Success"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "categories": {
+      "security": "Security",
+      "activity": "Activity",
+      "system": "System",
+      "device": "Device"
+    },
+    "device": "Device",
+    "category": "Category"
+  }
+}

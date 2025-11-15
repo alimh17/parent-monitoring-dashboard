@@ -1,0 +1,30 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "emitDeclarationOnly": false,
+    "isolatedModules": true,
+    "noEmitOnError": true,
+
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "typeRoots": ["../node_modules/@types", "../../node_modules/@types"],
+
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+
+  "include": ["./**/*.ts", "./**/*.tsx", "./types/**/*.d.ts"],
+
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.test.tsx"]
+}
