@@ -63,7 +63,7 @@ npm run build:shared
 npm run dev
 
 This command runs simultaneously:
-
+ 
 Shell App: http://localhost:3000
 
 Dashboard: http://localhost:3001
@@ -72,24 +72,24 @@ Notification: http://localhost:3002
 
 # Run specific micro frontend
 
-npm run dev:shell # http://localhost:3000
-npm run dev:dashboard # http://localhost:3001
-npm run dev:notification # http://localhost:3002
+- npm run dev:shell # http://localhost:3000
+- npm run dev:dashboard # http://localhost:3001
+- npm run dev:notification # http://localhost:3002
 
-npm run dev # Run all micro frontends
-npm run dev:shell # Run shell only
-npm run dev:dashboard # Run dashboard only
-npm run dev:notification # Run notification only
+- npm run dev # Run all micro frontends
+- npm run dev:shell # Run shell only
+- npm run dev:dashboard # Run dashboard only
+- npm run dev:notification # Run notification only
 
-npm run build # Build all applications
-npm run build:shared # Build shared packages only
-npm run build:shell # Build shell only
-npm run build:dashboard # Build dashboard only
-npm run build:notification # Build notification only
+- npm run build # Build all applications
+- npm run build:shared # Build shared packages only
+- npm run build:shell # Build shell only
+- npm run build:dashboard # Build dashboard only
+- npm run build:notification # Build notification only
 
 # Build all applications
 
-npm run build
+- npm run build
 
 # Start production servers (run in separate terminals)
 
