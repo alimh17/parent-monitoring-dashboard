@@ -17,13 +17,24 @@ This project is a parental monitoring dashboard similar to applications like mSp
 ## 📁 Project Structure
 
 parent-monitoring-dashboard/
-- ├── apps/
-- │ ├── shell/ # Host Application
-- │ ├── dashboard/ # Dashboard Micro Frontend
-- │ └── notification/ # Notification Micro Frontend
-- ├── packages/
-- │ └── shared/ # Shared utilities and components
-- └── package.json
+
+-├── apps/
+-│ ├── shell/ # Host Application (Main container)
+-│ ├── dashboard/ # Dashboard Micro Frontend
+-│ └── notification/ # Notification Micro Frontend
+-├── locales/ # Internationalization files
+-│ ├── en.json # English translations
+-│ └── fa.json # Persian translations
+-├── mock/ # Mock data and API simulation
+-│ └── index.ts # Mock data exports
+-├── services/ # Service layer and API interfaces
+-│ └── types.ts # TypeScript type definitions
+-├── shared/ # Shared utilities and components
+-│ ├── hooks.ts # Custom React hooks
+-│ ├── i18n.ts # Internationalization setup
+-│ ├── theme.ts # Theme configuration
+-│ └── ui.ts # Shared UI components
+-└── package.json # Root package configuration
 
 ## 🛠️ Prerequisites
 
