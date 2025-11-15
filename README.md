@@ -17,13 +17,13 @@ This project is a parental monitoring dashboard similar to applications like mSp
 ## 📁 Project Structure
 
 parent-monitoring-dashboard/
-├── apps/
-│ ├── shell/ # Host Application
-│ ├── dashboard/ # Dashboard Micro Frontend
-│ └── notification/ # Notification Micro Frontend
-├── packages/
-│ └── shared/ # Shared utilities and components
-└── package.json
+- ├── apps/
+- │ ├── shell/ # Host Application
+- │ ├── dashboard/ # Dashboard Micro Frontend
+- │ └── notification/ # Notification Micro Frontend
+- ├── packages/
+- │ └── shared/ # Shared utilities and components
+- └── package.json
 
 ## 🛠️ Prerequisites
 
